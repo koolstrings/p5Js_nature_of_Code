@@ -1,6 +1,6 @@
 
 function setup() {
-  createCanvas(screen.availWidth/1.3+10, screen.availHeight/1.5+10);
+  createCanvas(screen.availWidth/1.3, screen.availHeight/1.5);
 }
 
 
