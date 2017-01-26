@@ -26,6 +26,9 @@ function Mover(){
 }
 
 Mover.prototype.update = function(){
+  this.acceleration = p5.Vector.random2D();
+  this.acceleration.mult(random(2));
+  
   this.velocity.add(this.acceleration);
   this.velocity.limit(10);
   this.location.add(this.velocity);
